@@ -1,0 +1,1477 @@
+[
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2024-12-30"
+  ],
+  "expected": "2024-12-30 is a Monday. It falls in ISO week 1 of 2025, Monday 2024-12-30 to Sunday 2025-01-05. ISO year 2025 has 52 weeks. The ISO year 2025 differs from the calendar year 2024."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2024-12-29"
+  ],
+  "expected": "2024-12-29 is a Sunday. It falls in ISO week 52 of 2024, Monday 2024-12-23 to Sunday 2024-12-29. ISO year 2024 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2026-12-31"
+  ],
+  "expected": "2026-12-31 is a Thursday. It falls in ISO week 53 of 2026, Monday 2026-12-28 to Sunday 2027-01-03. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2027-01-01"
+  ],
+  "expected": "2027-01-01 is a Friday. It falls in ISO week 53 of 2026, Monday 2026-12-28 to Sunday 2027-01-03. ISO year 2026 has 53 weeks. The ISO year 2026 differs from the calendar year 2027."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2027-01-03"
+  ],
+  "expected": "2027-01-03 is a Sunday. It falls in ISO week 53 of 2026, Monday 2026-12-28 to Sunday 2027-01-03. ISO year 2026 has 53 weeks. The ISO year 2026 differs from the calendar year 2027."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2027-01-04"
+  ],
+  "expected": "2027-01-04 is a Monday. It falls in ISO week 1 of 2027, Monday 2027-01-04 to Sunday 2027-01-10. ISO year 2027 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2021-01-03"
+  ],
+  "expected": "2021-01-03 is a Sunday. It falls in ISO week 53 of 2020, Monday 2020-12-28 to Sunday 2021-01-03. ISO year 2020 has 53 weeks. The ISO year 2020 differs from the calendar year 2021."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2021-01-04"
+  ],
+  "expected": "2021-01-04 is a Monday. It falls in ISO week 1 of 2021, Monday 2021-01-04 to Sunday 2021-01-10. ISO year 2021 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2020-12-31"
+  ],
+  "expected": "2020-12-31 is a Thursday. It falls in ISO week 53 of 2020, Monday 2020-12-28 to Sunday 2021-01-03. ISO year 2020 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2020-02-29"
+  ],
+  "expected": "2020-02-29 is a Saturday. It falls in ISO week 9 of 2020, Monday 2020-02-24 to Sunday 2020-03-01. ISO year 2020 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2021-02-29"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2023-02-29"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2100-02-29"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2000-02-29"
+  ],
+  "expected": "2000-02-29 is a Tuesday. It falls in ISO week 9 of 2000, Monday 2000-02-28 to Sunday 2000-03-05. ISO year 2000 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1900-02-28"
+  ],
+  "expected": "1900-02-28 is a Wednesday. It falls in ISO week 9 of 1900, Monday 1900-02-26 to Sunday 1900-03-04. ISO year 1900 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1583-01-01"
+  ],
+  "expected": "1583-01-01 is a Saturday. It falls in ISO week 52 of 1582, Monday 1582-12-27 to Sunday 1583-01-02. ISO year 1582 has 52 weeks. The ISO year 1582 differs from the calendar year 1583."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1583-01-02"
+  ],
+  "expected": "1583-01-02 is a Sunday. It falls in ISO week 52 of 1582, Monday 1582-12-27 to Sunday 1583-01-02. ISO year 1582 has 52 weeks. The ISO year 1582 differs from the calendar year 1583."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "9000-12-31"
+  ],
+  "expected": "9000-12-31 is a Wednesday. It falls in ISO week 1 of 9001, Monday 9000-12-29 to Sunday 9001-01-04. ISO year 9001 has 53 weeks. The ISO year 9001 differs from the calendar year 9000."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "9000-01-01"
+  ],
+  "expected": "9000-01-01 is a Wednesday. It falls in ISO week 1 of 9000, Monday 8999-12-30 to Sunday 9000-01-05. ISO year 9000 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2026-13-01"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2026-00-10"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2026-04-31"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2026-4-1"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   ""
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "  2026-06-15  "
+  ],
+  "expected": "2026-06-15 is a Monday. It falls in ISO week 25 of 2026, Monday 2026-06-15 to Sunday 2026-06-21. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1582-12-31"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "9001-01-01"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2015-12-31"
+  ],
+  "expected": "2015-12-31 is a Thursday. It falls in ISO week 53 of 2015, Monday 2015-12-28 to Sunday 2016-01-03. ISO year 2015 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2016-01-01"
+  ],
+  "expected": "2016-01-01 is a Friday. It falls in ISO week 53 of 2015, Monday 2015-12-28 to Sunday 2016-01-03. ISO year 2015 has 53 weeks. The ISO year 2015 differs from the calendar year 2016."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2016-01-03"
+  ],
+  "expected": "2016-01-03 is a Sunday. It falls in ISO week 53 of 2015, Monday 2015-12-28 to Sunday 2016-01-03. ISO year 2015 has 53 weeks. The ISO year 2015 differs from the calendar year 2016."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2009-12-31"
+  ],
+  "expected": "2009-12-31 is a Thursday. It falls in ISO week 53 of 2009, Monday 2009-12-28 to Sunday 2010-01-03. ISO year 2009 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2010-01-03"
+  ],
+  "expected": "2010-01-03 is a Sunday. It falls in ISO week 53 of 2009, Monday 2009-12-28 to Sunday 2010-01-03. ISO year 2009 has 53 weeks. The ISO year 2009 differs from the calendar year 2010."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2026-02-30"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "abcd-ef-gh"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1855-05-06"
+  ],
+  "expected": "1855-05-06 is a Sunday. It falls in ISO week 18 of 1855, Monday 1855-04-30 to Sunday 1855-05-06. ISO year 1855 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "9000-07-07"
+  ],
+  "expected": "9000-07-07 is a Monday. It falls in ISO week 28 of 9000, Monday 9000-07-07 to Sunday 9000-07-13. ISO year 9000 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "3075-02-26"
+  ],
+  "expected": "3075-02-26 is a Friday. It falls in ISO week 8 of 3075, Monday 3075-02-22 to Sunday 3075-02-28. ISO year 3075 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "7933-08-31"
+  ],
+  "expected": "7933-08-31 is a Thursday. It falls in ISO week 35 of 7933, Monday 7933-08-28 to Sunday 7933-09-03. ISO year 7933 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6810-04-18"
+  ],
+  "expected": "6810-04-18 is a Sunday. It falls in ISO week 15 of 6810, Monday 6810-04-12 to Sunday 6810-04-18. ISO year 6810 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "7367-10-27"
+  ],
+  "expected": "7367-10-27 is a Tuesday. It falls in ISO week 44 of 7367, Monday 7367-10-26 to Sunday 7367-11-01. ISO year 7367 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "3706-01-02"
+  ],
+  "expected": "3706-01-02 is a Saturday. It falls in ISO week 53 of 3705, Monday 3705-12-28 to Sunday 3706-01-03. ISO year 3705 has 53 weeks. The ISO year 3705 differs from the calendar year 3706."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6765-01-10"
+  ],
+  "expected": "6765-01-10 is a Sunday. It falls in ISO week 1 of 6765, Monday 6765-01-04 to Sunday 6765-01-10. ISO year 6765 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2022-06-30"
+  ],
+  "expected": "2022-06-30 is a Thursday. It falls in ISO week 26 of 2022, Monday 2022-06-27 to Sunday 2022-07-03. ISO year 2022 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1846-08-07"
+  ],
+  "expected": "1846-08-07 is a Friday. It falls in ISO week 32 of 1846, Monday 1846-08-03 to Sunday 1846-08-09. ISO year 1846 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1901-06-29"
+  ],
+  "expected": "1901-06-29 is a Saturday. It falls in ISO week 26 of 1901, Monday 1901-06-24 to Sunday 1901-06-30. ISO year 1901 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8423-12-15"
+  ],
+  "expected": "8423-12-15 is a Friday. It falls in ISO week 50 of 8423, Monday 8423-12-11 to Sunday 8423-12-17. ISO year 8423 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4249-06-18"
+  ],
+  "expected": "4249-06-18 is a Monday. It falls in ISO week 25 of 4249, Monday 4249-06-18 to Sunday 4249-06-24. ISO year 4249 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "3967-12-15"
+  ],
+  "expected": "3967-12-15 is a Friday. It falls in ISO week 50 of 3967, Monday 3967-12-11 to Sunday 3967-12-17. ISO year 3967 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4159-10-20"
+  ],
+  "expected": "4159-10-20 is a Saturday. It falls in ISO week 42 of 4159, Monday 4159-10-15 to Sunday 4159-10-21. ISO year 4159 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8028-06-04"
+  ],
+  "expected": "8028-06-04 is a Sunday. It falls in ISO week 22 of 8028, Monday 8028-05-29 to Sunday 8028-06-04. ISO year 8028 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4716-12-25"
+  ],
+  "expected": "4716-12-25 is a Monday. It falls in ISO week 52 of 4716, Monday 4716-12-25 to Sunday 4716-12-31. ISO year 4716 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8583-04-02"
+  ],
+  "expected": "8583-04-02 is a Wednesday. It falls in ISO week 14 of 8583, Monday 8583-03-31 to Sunday 8583-04-06. ISO year 8583 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6559-09-03"
+  ],
+  "expected": "6559-09-03 is a Monday. It falls in ISO week 36 of 6559, Monday 6559-09-03 to Sunday 6559-09-09. ISO year 6559 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6619-09-11"
+  ],
+  "expected": "6619-09-11 is a Saturday. It falls in ISO week 36 of 6619, Monday 6619-09-06 to Sunday 6619-09-12. ISO year 6619 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "7054-11-22"
+  ],
+  "expected": "7054-11-22 is a Wednesday. It falls in ISO week 47 of 7054, Monday 7054-11-20 to Sunday 7054-11-26. ISO year 7054 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8003-08-11"
+  ],
+  "expected": "8003-08-11 is a Monday. It falls in ISO week 33 of 8003, Monday 8003-08-11 to Sunday 8003-08-17. ISO year 8003 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6219-05-02"
+  ],
+  "expected": "6219-05-02 is a Sunday. It falls in ISO week 17 of 6219, Monday 6219-04-26 to Sunday 6219-05-02. ISO year 6219 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6974-12-08"
+  ],
+  "expected": "6974-12-08 is a Thursday. It falls in ISO week 49 of 6974, Monday 6974-12-05 to Sunday 6974-12-11. ISO year 6974 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "2778-04-08"
+  ],
+  "expected": "2778-04-08 is a Saturday. It falls in ISO week 14 of 2778, Monday 2778-04-03 to Sunday 2778-04-09. ISO year 2778 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "5513-02-12"
+  ],
+  "expected": "5513-02-12 is a Wednesday. It falls in ISO week 7 of 5513, Monday 5513-02-10 to Sunday 5513-02-16. ISO year 5513 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "3392-04-26"
+  ],
+  "expected": "3392-04-26 is a Thursday. It falls in ISO week 17 of 3392, Monday 3392-04-23 to Sunday 3392-04-29. ISO year 3392 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8229-11-13"
+  ],
+  "expected": "8229-11-13 is a Friday. It falls in ISO week 46 of 8229, Monday 8229-11-09 to Sunday 8229-11-15. ISO year 8229 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4498-12-21"
+  ],
+  "expected": "4498-12-21 is a Sunday. It falls in ISO week 51 of 4498, Monday 4498-12-15 to Sunday 4498-12-21. ISO year 4498 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6385-05-05"
+  ],
+  "expected": "6385-05-05 is a Sunday. It falls in ISO week 18 of 6385, Monday 6385-04-29 to Sunday 6385-05-05. ISO year 6385 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4638-11-04"
+  ],
+  "expected": "4638-11-04 is a Sunday. It falls in ISO week 44 of 4638, Monday 4638-10-29 to Sunday 4638-11-04. ISO year 4638 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4156-07-03"
+  ],
+  "expected": "4156-07-03 is a Saturday. It falls in ISO week 27 of 4156, Monday 4156-06-28 to Sunday 4156-07-04. ISO year 4156 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8592-09-17"
+  ],
+  "expected": "8592-09-17 is a Monday. It falls in ISO week 38 of 8592, Monday 8592-09-17 to Sunday 8592-09-23. ISO year 8592 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "6047-09-30"
+  ],
+  "expected": "6047-09-30 is a Monday. It falls in ISO week 40 of 6047, Monday 6047-09-30 to Sunday 6047-10-06. ISO year 6047 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "4252-12-10"
+  ],
+  "expected": "4252-12-10 is a Friday. It falls in ISO week 50 of 4252, Monday 4252-12-06 to Sunday 4252-12-12. ISO year 4252 has 53 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "8286-10-08"
+  ],
+  "expected": "8286-10-08 is a Friday. It falls in ISO week 40 of 8286, Monday 8286-10-04 to Sunday 8286-10-10. ISO year 8286 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "7945-11-19"
+  ],
+  "expected": "7945-11-19 is a Monday. It falls in ISO week 47 of 7945, Monday 7945-11-19 to Sunday 7945-11-25. ISO year 7945 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "1594-09-15"
+  ],
+  "expected": "1594-09-15 is a Thursday. It falls in ISO week 37 of 1594, Monday 1594-09-12 to Sunday 1594-09-18. ISO year 1594 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "7714-02-25"
+  ],
+  "expected": "7714-02-25 is a Sunday. It falls in ISO week 8 of 7714, Monday 7714-02-19 to Sunday 7714-02-25. ISO year 7714 has 52 weeks."
+ },
+ {
+  "fn": "weekTruth",
+  "args": [
+   "7891-04-21"
+  ],
+  "expected": "7891-04-21 is a Tuesday. It falls in ISO week 17 of 7891, Monday 7891-04-20 to Sunday 7891-04-26. ISO year 7891 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2026, week 1, weekday 1 is Monday 2025-12-29. ISO year 2026 has 53 weeks. That date is in calendar year 2025."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2026, week 52, weekday 7 is Sunday 2026-12-27. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "53",
+   "4"
+  ],
+  "expected": "ISO year 2026, week 53, weekday 4 is Thursday 2026-12-31. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "53",
+   "1"
+  ],
+  "expected": "ISO year 2026, week 53, weekday 1 is Monday 2026-12-28. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2026, week 26, weekday 3 is Wednesday 2026-06-24. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2025",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2025, week 1, weekday 1 is Monday 2024-12-30. ISO year 2025 has 52 weeks. That date is in calendar year 2024."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2025",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2025, week 52, weekday 7 is Sunday 2025-12-28. ISO year 2025 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2025",
+   "53",
+   "4"
+  ],
+  "expected": "ERR:ISO year 2025 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2025",
+   "53",
+   "1"
+  ],
+  "expected": "ERR:ISO year 2025 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2025",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2025, week 26, weekday 3 is Wednesday 2025-06-25. ISO year 2025 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2020",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2020, week 1, weekday 1 is Monday 2019-12-30. ISO year 2020 has 53 weeks. That date is in calendar year 2019."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2020",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2020, week 52, weekday 7 is Sunday 2020-12-27. ISO year 2020 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2020",
+   "53",
+   "4"
+  ],
+  "expected": "ISO year 2020, week 53, weekday 4 is Thursday 2020-12-31. ISO year 2020 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2020",
+   "53",
+   "1"
+  ],
+  "expected": "ISO year 2020, week 53, weekday 1 is Monday 2020-12-28. ISO year 2020 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2020",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2020, week 26, weekday 3 is Wednesday 2020-06-24. ISO year 2020 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2015",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2015, week 1, weekday 1 is Monday 2014-12-29. ISO year 2015 has 53 weeks. That date is in calendar year 2014."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2015",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2015, week 52, weekday 7 is Sunday 2015-12-27. ISO year 2015 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2015",
+   "53",
+   "4"
+  ],
+  "expected": "ISO year 2015, week 53, weekday 4 is Thursday 2015-12-31. ISO year 2015 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2015",
+   "53",
+   "1"
+  ],
+  "expected": "ISO year 2015, week 53, weekday 1 is Monday 2015-12-28. ISO year 2015 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2015",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2015, week 26, weekday 3 is Wednesday 2015-06-24. ISO year 2015 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2021",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2021, week 1, weekday 1 is Monday 2021-01-04. ISO year 2021 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2021",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2021, week 52, weekday 7 is Sunday 2022-01-02. ISO year 2021 has 52 weeks. That date is in calendar year 2022."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2021",
+   "53",
+   "4"
+  ],
+  "expected": "ERR:ISO year 2021 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2021",
+   "53",
+   "1"
+  ],
+  "expected": "ERR:ISO year 2021 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2021",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2021, week 26, weekday 3 is Wednesday 2021-06-30. ISO year 2021 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2024",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2024, week 1, weekday 1 is Monday 2024-01-01. ISO year 2024 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2024",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2024, week 52, weekday 7 is Sunday 2024-12-29. ISO year 2024 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2024",
+   "53",
+   "4"
+  ],
+  "expected": "ERR:ISO year 2024 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2024",
+   "53",
+   "1"
+  ],
+  "expected": "ERR:ISO year 2024 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2024",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2024, week 26, weekday 3 is Wednesday 2024-06-26. ISO year 2024 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "1583",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 1583, week 1, weekday 1 is Monday 1583-01-03. ISO year 1583 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "1583",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 1583, week 52, weekday 7 is Sunday 1584-01-01. ISO year 1583 has 52 weeks. That date is in calendar year 1584."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "1583",
+   "53",
+   "4"
+  ],
+  "expected": "ERR:ISO year 1583 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "1583",
+   "53",
+   "1"
+  ],
+  "expected": "ERR:ISO year 1583 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "1583",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 1583, week 26, weekday 3 is Wednesday 1583-06-29. ISO year 1583 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "9000",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 9000, week 1, weekday 1 is Monday 8999-12-30. ISO year 9000 has 52 weeks. That date is in calendar year 8999."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "9000",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 9000, week 52, weekday 7 is Sunday 9000-12-28. ISO year 9000 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "9000",
+   "53",
+   "4"
+  ],
+  "expected": "ERR:ISO year 9000 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "9000",
+   "53",
+   "1"
+  ],
+  "expected": "ERR:ISO year 9000 has 52 weeks, so week 53 does not exist"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "9000",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 9000, week 26, weekday 3 is Wednesday 9000-06-25. ISO year 9000 has 52 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2004",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2004, week 1, weekday 1 is Monday 2003-12-29. ISO year 2004 has 53 weeks. That date is in calendar year 2003."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2004",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2004, week 52, weekday 7 is Sunday 2004-12-26. ISO year 2004 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2004",
+   "53",
+   "4"
+  ],
+  "expected": "ISO year 2004, week 53, weekday 4 is Thursday 2004-12-30. ISO year 2004 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2004",
+   "53",
+   "1"
+  ],
+  "expected": "ISO year 2004, week 53, weekday 1 is Monday 2004-12-27. ISO year 2004 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2004",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2004, week 26, weekday 3 is Wednesday 2004-06-23. ISO year 2004 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2009",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2009, week 1, weekday 1 is Monday 2008-12-29. ISO year 2009 has 53 weeks. That date is in calendar year 2008."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2009",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2009, week 52, weekday 7 is Sunday 2009-12-27. ISO year 2009 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2009",
+   "53",
+   "4"
+  ],
+  "expected": "ISO year 2009, week 53, weekday 4 is Thursday 2009-12-31. ISO year 2009 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2009",
+   "53",
+   "1"
+  ],
+  "expected": "ISO year 2009, week 53, weekday 1 is Monday 2009-12-28. ISO year 2009 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2009",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2009, week 26, weekday 3 is Wednesday 2009-06-24. ISO year 2009 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2032",
+   "1",
+   "1"
+  ],
+  "expected": "ISO year 2032, week 1, weekday 1 is Monday 2031-12-29. ISO year 2032 has 53 weeks. That date is in calendar year 2031."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2032",
+   "52",
+   "7"
+  ],
+  "expected": "ISO year 2032, week 52, weekday 7 is Sunday 2032-12-26. ISO year 2032 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2032",
+   "53",
+   "4"
+  ],
+  "expected": "ISO year 2032, week 53, weekday 4 is Thursday 2032-12-30. ISO year 2032 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2032",
+   "53",
+   "1"
+  ],
+  "expected": "ISO year 2032, week 53, weekday 1 is Monday 2032-12-27. ISO year 2032 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2032",
+   "26",
+   "3"
+  ],
+  "expected": "ISO year 2032, week 26, weekday 3 is Wednesday 2032-06-23. ISO year 2032 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "1582",
+   "1",
+   "1"
+  ],
+  "expected": "ERR:the ISO year must be a whole number from 1583 to 9000"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "9001",
+   "1",
+   "1"
+  ],
+  "expected": "ERR:the ISO year must be a whole number from 1583 to 9000"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "0",
+   "1"
+  ],
+  "expected": "ERR:the week must be a whole number from 1 to 53"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "54",
+   "1"
+  ],
+  "expected": "ERR:the week must be a whole number from 1 to 53"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "5",
+   "0"
+  ],
+  "expected": "ERR:the weekday must be a whole number from 1 (Monday) to 7 (Sunday)"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "5",
+   "8"
+  ],
+  "expected": "ERR:the weekday must be a whole number from 1 (Monday) to 7 (Sunday)"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "abc",
+   "5",
+   "1"
+  ],
+  "expected": "ERR:the ISO year must be a whole number from 1583 to 9000"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "x",
+   "1"
+  ],
+  "expected": "ERR:the week must be a whole number from 1 to 53"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "5",
+   "y"
+  ],
+  "expected": "ERR:the weekday must be a whole number from 1 (Monday) to 7 (Sunday)"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "",
+   "",
+   ""
+  ],
+  "expected": "ERR:the ISO year must be a whole number from 1583 to 9000"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   " 2026 ",
+   " 10 ",
+   " 5 "
+  ],
+  "expected": "ISO year 2026, week 10, weekday 5 is Friday 2026-03-06. ISO year 2026 has 53 weeks."
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "02026",
+   "10",
+   "5"
+  ],
+  "expected": "ERR:the ISO year must be a whole number from 1583 to 9000"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "010",
+   "5"
+  ],
+  "expected": "ERR:the week must be a whole number from 1 to 53"
+ },
+ {
+  "fn": "dateTruth",
+  "args": [
+   "2026",
+   "07",
+   "01"
+  ],
+  "expected": "ERR:the weekday must be a whole number from 1 (Monday) to 7 (Sunday)"
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-01-01",
+   "2026-03-01"
+  ],
+  "expected": "From 2026-01-01 to 2026-03-01 is 59 days (8 weeks and 3 days). Counting the earlier date but not the later one: 42 weekdays (Monday to Friday) and 17 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-03-01",
+   "2026-01-01"
+  ],
+  "expected": "From 2026-03-01 to 2026-01-01 is 59 days (8 weeks and 3 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 42 weekdays (Monday to Friday) and 17 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-05",
+   "2026-05-05"
+  ],
+  "expected": "From 2026-05-05 to 2026-05-05 is 0 days (0 weeks and 0 days). Counting the earlier date but not the later one: 0 weekdays (Monday to Friday) and 0 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-05",
+   "2026-05-06"
+  ],
+  "expected": "From 2026-05-05 to 2026-05-06 is 1 day (0 weeks and 1 day). Counting the earlier date but not the later one: 1 weekday (Monday to Friday) and 0 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-02",
+   "2026-05-04"
+  ],
+  "expected": "From 2026-05-02 to 2026-05-04 is 2 days (0 weeks and 2 days). Counting the earlier date but not the later one: 0 weekdays (Monday to Friday) and 2 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-09",
+   "2026-05-10"
+  ],
+  "expected": "From 2026-05-09 to 2026-05-10 is 1 day (0 weeks and 1 day). Counting the earlier date but not the later one: 0 weekdays (Monday to Friday) and 1 weekend day."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2024-02-28",
+   "2024-03-01"
+  ],
+  "expected": "From 2024-02-28 to 2024-03-01 is 2 days (0 weeks and 2 days). Counting the earlier date but not the later one: 2 weekdays (Monday to Friday) and 0 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2023-02-28",
+   "2023-03-01"
+  ],
+  "expected": "From 2023-02-28 to 2023-03-01 is 1 day (0 weeks and 1 day). Counting the earlier date but not the later one: 1 weekday (Monday to Friday) and 0 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "1583-01-01",
+   "9000-12-31"
+  ],
+  "expected": "From 1583-01-01 to 9000-12-31 is 2709368 days (387052 weeks and 4 days). Counting the earlier date but not the later one: 1935262 weekdays (Monday to Friday) and 774106 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-12-31",
+   "2027-01-01"
+  ],
+  "expected": "From 2026-12-31 to 2027-01-01 is 1 day (0 weeks and 1 day). Counting the earlier date but not the later one: 1 weekday (Monday to Friday) and 0 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-04",
+   "2026-05-11"
+  ],
+  "expected": "From 2026-05-04 to 2026-05-11 is 7 days (1 week and 0 days). Counting the earlier date but not the later one: 5 weekdays (Monday to Friday) and 2 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-04",
+   "2026-05-12"
+  ],
+  "expected": "From 2026-05-04 to 2026-05-12 is 8 days (1 week and 1 day). Counting the earlier date but not the later one: 6 weekdays (Monday to Friday) and 2 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-5-4",
+   "2026-05-11"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-04",
+   "bad"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "bad",
+   "2026-05-04"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2026-05-04",
+   "2026-02-30"
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "",
+   ""
+  ],
+  "expected": "ERR:enter a date as YYYY-MM-DD, a real calendar date from 1583 to 9000"
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "2570-11-22",
+   "6729-12-05"
+  ],
+  "expected": "From 2570-11-22 to 6729-12-05 is 1519056 days (217008 weeks and 0 days). Counting the earlier date but not the later one: 1085040 weekdays (Monday to Friday) and 434016 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "7135-08-04",
+   "4731-12-25"
+  ],
+  "expected": "From 7135-08-04 to 4731-12-25 is 877900 days (125414 weeks and 2 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 627071 weekdays (Monday to Friday) and 250829 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "4055-12-26",
+   "4056-11-09"
+  ],
+  "expected": "From 4055-12-26 to 4056-11-09 is 319 days (45 weeks and 4 days). Counting the earlier date but not the later one: 228 weekdays (Monday to Friday) and 91 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "8939-03-10",
+   "8939-07-11"
+  ],
+  "expected": "From 8939-03-10 to 8939-07-11 is 123 days (17 weeks and 4 days). Counting the earlier date but not the later one: 89 weekdays (Monday to Friday) and 34 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "4748-05-21",
+   "6431-01-09"
+  ],
+  "expected": "From 4748-05-21 to 6431-01-09 is 614571 days (87795 weeks and 6 days). Counting the earlier date but not the later one: 438979 weekdays (Monday to Friday) and 175592 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "6131-04-22",
+   "6131-11-24"
+  ],
+  "expected": "From 6131-04-22 to 6131-11-24 is 216 days (30 weeks and 6 days). Counting the earlier date but not the later one: 155 weekdays (Monday to Friday) and 61 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "4574-04-05",
+   "4574-10-24"
+  ],
+  "expected": "From 4574-04-05 to 4574-10-24 is 202 days (28 weeks and 6 days). Counting the earlier date but not the later one: 144 weekdays (Monday to Friday) and 58 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "6642-08-24",
+   "7386-10-27"
+  ],
+  "expected": "From 6642-08-24 to 7386-10-27 is 271805 days (38829 weeks and 2 days). Counting the earlier date but not the later one: 194147 weekdays (Monday to Friday) and 77658 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "8929-12-30",
+   "8929-11-29"
+  ],
+  "expected": "From 8929-12-30 to 8929-11-29 is 31 days (4 weeks and 3 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 23 weekdays (Monday to Friday) and 8 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "3799-03-03",
+   "8005-10-09"
+  ],
+  "expected": "From 3799-03-03 to 8005-10-09 is 1536430 days (219490 weeks and 0 days). Counting the earlier date but not the later one: 1097450 weekdays (Monday to Friday) and 438980 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "6093-06-25",
+   "5763-04-04"
+  ],
+  "expected": "From 6093-06-25 to 5763-04-04 is 120613 days (17230 weeks and 3 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 86153 weekdays (Monday to Friday) and 34460 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "1647-06-26",
+   "1648-05-03"
+  ],
+  "expected": "From 1647-06-26 to 1648-05-03 is 312 days (44 weeks and 4 days). Counting the earlier date but not the later one: 223 weekdays (Monday to Friday) and 89 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "8741-07-19",
+   "7917-01-01"
+  ],
+  "expected": "From 8741-07-19 to 7917-01-01 is 301159 days (43022 weeks and 5 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 215115 weekdays (Monday to Friday) and 86044 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "1992-08-30",
+   "1993-01-12"
+  ],
+  "expected": "From 1992-08-30 to 1993-01-12 is 135 days (19 weeks and 2 days). Counting the earlier date but not the later one: 96 weekdays (Monday to Friday) and 39 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "7802-12-02",
+   "7048-07-18"
+  ],
+  "expected": "From 7802-12-02 to 7048-07-18 is 275529 days (39361 weeks and 2 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 196807 weekdays (Monday to Friday) and 78722 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "5741-04-22",
+   "5741-12-05"
+  ],
+  "expected": "From 5741-04-22 to 5741-12-05 is 227 days (32 weeks and 3 days). Counting the earlier date but not the later one: 161 weekdays (Monday to Friday) and 66 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "4871-02-06",
+   "4871-03-26"
+  ],
+  "expected": "From 4871-02-06 to 4871-03-26 is 48 days (6 weeks and 6 days). Counting the earlier date but not the later one: 34 weekdays (Monday to Friday) and 14 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "7683-06-29",
+   "3912-05-01"
+  ],
+  "expected": "From 7683-06-29 to 3912-05-01 is 1377389 days (196769 weeks and 6 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 983849 weekdays (Monday to Friday) and 393540 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "5916-05-03",
+   "5917-04-07"
+  ],
+  "expected": "From 5916-05-03 to 5917-04-07 is 339 days (48 weeks and 3 days). Counting the earlier date but not the later one: 243 weekdays (Monday to Friday) and 96 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "7806-12-04",
+   "7807-08-10"
+  ],
+  "expected": "From 7806-12-04 to 7807-08-10 is 249 days (35 weeks and 4 days). Counting the earlier date but not the later one: 177 weekdays (Monday to Friday) and 72 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "3394-09-22",
+   "2058-02-26"
+  ],
+  "expected": "From 3394-09-22 to 2058-02-26 is 488172 days (69738 weeks and 6 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 348694 weekdays (Monday to Friday) and 139478 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "3784-07-23",
+   "1861-07-22"
+  ],
+  "expected": "From 3784-07-23 to 1861-07-22 is 702363 days (100337 weeks and 4 days). The second date is earlier, so this counts backward. Counting the earlier date but not the later one: 501689 weekdays (Monday to Friday) and 200674 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "6395-05-16",
+   "6395-08-06"
+  ],
+  "expected": "From 6395-05-16 to 6395-08-06 is 82 days (11 weeks and 5 days). Counting the earlier date but not the later one: 59 weekdays (Monday to Friday) and 23 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "3679-05-26",
+   "3680-06-17"
+  ],
+  "expected": "From 3679-05-26 to 3680-06-17 is 388 days (55 weeks and 3 days). Counting the earlier date but not the later one: 276 weekdays (Monday to Friday) and 112 weekend days."
+ },
+ {
+  "fn": "spanTruth",
+  "args": [
+   "7733-06-27",
+   "7734-04-11"
+  ],
+  "expected": "From 7733-06-27 to 7734-04-11 is 288 days (41 weeks and 1 day). Counting the earlier date but not the later one: 205 weekdays (Monday to Friday) and 83 weekend days."
+ }
+]
