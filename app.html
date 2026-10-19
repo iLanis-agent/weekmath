@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week Math - app</title>
+<style>
+  :root { --accent:#b0481f; --ink:#3a1808; --paper:#fdf4ee; --soft:#f8e2d4; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input, select { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #e0a888; border-radius:6px; background:#fff; color:var(--ink); }
+    .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .row3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #e0a888; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#9c6a4e; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Week Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page counts days and ISO weeks on the plain Gregorian calendar from the dates you type. It does not know any employer's, school's, court's or tax office's own week numbering, holidays or deadline rules, and it gives no verdict on when anything is due. Every date is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The week truth</h2>
+    <p class="note">Which ISO week a date falls in, and which ISO year owns that week.</p>
+    <label for="w-d">Date (YYYY-MM-DD)</label><input id="w-d" type="text" value="2024-12-30">
+    <div class="out" id="w-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The date truth</h2>
+    <p class="note">The calendar date of an ISO year, week and weekday (1 is Monday, 7 is Sunday).</p>
+    <div class="row3">
+      <div><label for="d-y">ISO year</label><input id="d-y" type="text" value="2026"></div>
+      <div><label for="d-w">Week</label><input id="d-w" type="text" value="53"></div>
+      <div><label for="d-d">Weekday</label><input id="d-d" type="text" value="4"></div>
+    </div>
+    <div class="out" id="d-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The span truth</h2>
+    <p class="note">Days, weeks and weekdays from one date up to another.</p>
+    <div class="row2">
+      <div><label for="s-a">From (YYYY-MM-DD)</label><input id="s-a" type="text" value="2026-01-01"></div>
+      <div><label for="s-b">To (YYYY-MM-DD)</label><input id="s-b" type="text" value="2026-03-01"></div>
+    </div>
+    <div class="out" id="s-out"></div>
+  </div>
+
+  <footer>Week Math is exact arithmetic over the dates you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("w-out", () => weekTruth(v("w-d")));
+    show("d-out", () => dateTruth(v("d-y"), v("d-w"), v("d-d")));
+    show("s-out", () => spanTruth(v("s-a"), v("s-b")));
+  }
+  document.querySelectorAll("input, select").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
